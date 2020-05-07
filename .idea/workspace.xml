@@ -26,11 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsAdd.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +110,9 @@
       <workItem from="1588686678942" duration="64000" />
       <workItem from="1588686767395" duration="6158000" />
       <workItem from="1588762029880" duration="15038000" />
-      <workItem from="1588797459808" duration="590000" />
+      <workItem from="1588797459808" duration="1931000" />
+      <workItem from="1588874131356" duration="14000" />
+      <workItem from="1588874215497" duration="1490000" />
     </task>
     <task id="LOCAL-00001" summary="SocialNetwork_v-11">
       <created>1588687449701</created>
@@ -144,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588776741961</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SocialNetwork_v-17">
+      <created>1588798095972</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588798095972</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +192,8 @@
     <MESSAGE value="SocialNetwork_v-14" />
     <MESSAGE value="SocialNetwork_v-15" />
     <MESSAGE value="SocialNetwork_v-16" />
-    <option name="LAST_COMMIT_MESSAGE" value="SocialNetwork_v-16" />
+    <MESSAGE value="SocialNetwork_v-17" />
+    <option name="LAST_COMMIT_MESSAGE" value="SocialNetwork_v-17" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588779781839">
@@ -191,29 +204,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="581" y="104" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588779686449" />
-    <state width="1865" height="228" key="GridCell.Tab.0.bottom" timestamp="1588783130394">
+    <state width="1870" height="242" key="GridCell.Tab.0.bottom" timestamp="1588875093354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="228" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588783130394" />
-    <state width="1865" height="228" key="GridCell.Tab.0.center" timestamp="1588783130392">
+    <state width="1870" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588875093354" />
+    <state width="1870" height="242" key="GridCell.Tab.0.center" timestamp="1588875093354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="228" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588783130392" />
-    <state width="1865" height="228" key="GridCell.Tab.0.left" timestamp="1588783130392">
+    <state width="1870" height="242" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588875093354" />
+    <state width="1870" height="242" key="GridCell.Tab.0.left" timestamp="1588875093353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="228" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588783130392" />
-    <state width="1865" height="228" key="GridCell.Tab.0.right" timestamp="1588783130393">
+    <state width="1870" height="242" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588875093353" />
+    <state width="1870" height="242" key="GridCell.Tab.0.right" timestamp="1588875093354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="228" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588783130393" />
+    <state width="1870" height="242" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588875093354" />
     <state x="110" y="0" key="SettingsEditor" timestamp="1588772838020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588772838020" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1588777145154">
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1588798252504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588777145154" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588798252504" />
+    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1588875292942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588875292942" />
   </component>
 </project>
