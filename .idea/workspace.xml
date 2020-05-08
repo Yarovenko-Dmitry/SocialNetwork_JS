@@ -27,6 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +108,8 @@
       <workItem from="1588762029880" duration="15038000" />
       <workItem from="1588797459808" duration="1931000" />
       <workItem from="1588874131356" duration="14000" />
-      <workItem from="1588874215497" duration="8930000" />
+      <workItem from="1588874215497" duration="9031000" />
+      <workItem from="1588939631438" duration="1207000" />
     </task>
     <task id="LOCAL-00001" summary="SocialNetwork_v-11">
       <created>1588687449701</created>
@@ -164,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588935107847</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="SocialNetwork_v-19-JS">
+      <created>1588939418513</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588939418513</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +213,8 @@
     <MESSAGE value="SocialNetwork_v-17" />
     <MESSAGE value="SocialNetwork_v-18" />
     <MESSAGE value="SocialNetwork_v-19" />
-    <option name="LAST_COMMIT_MESSAGE" value="SocialNetwork_v-19" />
+    <MESSAGE value="SocialNetwork_v-19-JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="SocialNetwork_v-19-JS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588779781839">
@@ -214,30 +225,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="581" y="104" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588779686449" />
-    <state width="1870" height="242" key="GridCell.Tab.0.bottom" timestamp="1588932518074">
+    <state width="1870" height="242" key="GridCell.Tab.0.bottom" timestamp="1588939505073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1870" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588932518074" />
-    <state width="1870" height="242" key="GridCell.Tab.0.center" timestamp="1588932518073">
+    <state width="1870" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588939505073" />
+    <state width="1870" height="242" key="GridCell.Tab.0.center" timestamp="1588939505073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1870" height="242" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588932518073" />
-    <state width="1870" height="242" key="GridCell.Tab.0.left" timestamp="1588932518072">
+    <state width="1870" height="242" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588939505073" />
+    <state width="1870" height="242" key="GridCell.Tab.0.left" timestamp="1588939505073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1870" height="242" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588932518072" />
-    <state width="1870" height="242" key="GridCell.Tab.0.right" timestamp="1588932518073">
+    <state width="1870" height="242" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588939505073" />
+    <state width="1870" height="242" key="GridCell.Tab.0.right" timestamp="1588939505073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1870" height="242" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588932518073" />
+    <state width="1870" height="242" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588939505073" />
     <state x="110" y="0" key="SettingsEditor" timestamp="1588772838020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588772838020" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1588875990343">
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1588939439134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588875990343" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588939439134" />
     <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1588932261955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
