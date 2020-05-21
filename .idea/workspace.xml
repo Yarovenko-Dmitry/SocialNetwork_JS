@@ -29,7 +29,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rerender.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +120,8 @@
       <workItem from="1589303977809" duration="607000" />
       <workItem from="1589803335905" duration="7097000" />
       <workItem from="1589972306692" duration="4334000" />
-      <workItem from="1589997119463" duration="7156000" />
+      <workItem from="1589997119463" duration="7307000" />
+      <workItem from="1590042197379" duration="5135000" />
     </task>
     <task id="LOCAL-00001" summary="SocialNetwork_v-11">
       <created>1588687449701</created>
@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590002459318</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="SN_v-35-JS-callback_subscribe_observer">
+      <created>1590004625584</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1590004625584</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +321,8 @@
     <MESSAGE value="SN_v-32-JS-throw_callback_through_props" />
     <MESSAGE value="SN_v-33-JS-add_post_on_wall___start_FLUX" />
     <MESSAGE value="SN_v-34-JS-add_FLUX-loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="SN_v-34-JS-add_FLUX-loop" />
+    <MESSAGE value="SN_v-35-JS-callback_subscribe_observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-35-JS-callback_subscribe_observer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590002703415">
@@ -325,34 +333,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="581" y="104" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588779686449" />
-    <state width="910" height="252" key="GridCell.Tab.0.bottom" timestamp="1589998955043">
+    <state width="910" height="252" key="GridCell.Tab.0.bottom" timestamp="1590004667230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1589998955043" />
+    <state width="910" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1590004667230" />
     <state width="1886" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940802" />
-    <state width="910" height="252" key="GridCell.Tab.0.center" timestamp="1589998955043">
+    <state width="910" height="252" key="GridCell.Tab.0.center" timestamp="1590004667230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="252" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1589998955043" />
+    <state width="910" height="252" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1590004667230" />
     <state width="1886" height="247" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
-    <state width="910" height="252" key="GridCell.Tab.0.left" timestamp="1589998955042">
+    <state width="910" height="252" key="GridCell.Tab.0.left" timestamp="1590004667230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="252" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1589998955042" />
+    <state width="910" height="252" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1590004667230" />
     <state width="1886" height="247" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
-    <state width="910" height="252" key="GridCell.Tab.0.right" timestamp="1589998955043">
+    <state width="910" height="252" key="GridCell.Tab.0.right" timestamp="1590004667230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1589998955043" />
+    <state width="910" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1590004667230" />
     <state width="1886" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
     <state x="110" y="0" key="SettingsEditor" timestamp="1588772838020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588772838020" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1590002474689">
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1590004646039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1590002474689" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1590004646039" />
     <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589133735162" />
     <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1588932261955">
       <screen x="0" y="0" width="1920" height="1040" />
