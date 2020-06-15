@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,26 +64,27 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Users" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\redux" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Dialogs" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile\MyPosts" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src" />
-    </key>
-    <key name="es6.move.members.recent.items">
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message.jsx" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\ProfileInfo.jsx" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\MyPostsAdd.jsx" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\DialogItem" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Music" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message.jsx" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\ProfileInfo.jsx" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\MyPostsAdd.jsx" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Users" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\redux" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Dialogs" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile\MyPosts" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -143,7 +145,10 @@
       <workItem from="1591282417349" duration="689000" />
       <workItem from="1591285191205" duration="883000" />
       <workItem from="1591961395846" duration="4822000" />
-      <workItem from="1591977571961" duration="2748000" />
+      <workItem from="1591977571961" duration="3056000" />
+      <workItem from="1591988356184" duration="33000" />
+      <workItem from="1591988654682" duration="158000" />
+      <workItem from="1592226544657" duration="1372000" />
     </task>
     <task id="LOCAL-00001" summary="SocialNetwork_v-11">
       <created>1588687449701</created>
@@ -362,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591966931328</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="SN_v-52-JS-practice-Side-Effect">
+      <created>1591984880472</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591984880472</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +406,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SocialNetwork_v-18" />
     <MESSAGE value="SocialNetwork_v-19" />
     <MESSAGE value="SocialNetwork_v-19-JS" />
     <MESSAGE value="SocialNetwork_v-20-JS" />
@@ -419,49 +430,50 @@
     <MESSAGE value="SN_v-44-JS-practice-context-API" />
     <MESSAGE value="SN_v-45-48-JS-connect_mapStateToProps_mapDispatchToProps_deep-copy-us-shallow-copy___SN_v-49-JS- practice-users-page" />
     <MESSAGE value="SN_v-51-JS-practice-Users-API" />
-    <option name="LAST_COMMIT_MESSAGE" value="SN_v-51-JS-practice-Users-API" />
+    <MESSAGE value="SN_v-52-JS-practice-Side-Effect" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-52-JS-practice-Side-Effect" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="285" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591193531947">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="583" y="285" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591193531947" />
-    <state x="493" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591204209878">
+    <state x="493" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592227478730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="493" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591204209878" />
+    <state x="493" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592227478730" />
     <state x="581" y="104" key="FileChooserDialogImpl" timestamp="1588779686449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="581" y="104" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588779686449" />
-    <state width="1886" height="245" key="GridCell.Tab.0.bottom" timestamp="1591982247394">
+    <state width="1886" height="245" key="GridCell.Tab.0.bottom" timestamp="1591985179628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591982247394" />
+    <state width="1886" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591985179628" />
     <state width="1886" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940802" />
-    <state width="1886" height="245" key="GridCell.Tab.0.center" timestamp="1591982247394">
+    <state width="1886" height="245" key="GridCell.Tab.0.center" timestamp="1591985179628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="245" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591982247394" />
+    <state width="1886" height="245" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591985179628" />
     <state width="1886" height="247" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
-    <state width="1886" height="245" key="GridCell.Tab.0.left" timestamp="1591982247393">
+    <state width="1886" height="245" key="GridCell.Tab.0.left" timestamp="1591985179628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="245" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591982247393" />
+    <state width="1886" height="245" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591985179628" />
     <state width="1886" height="247" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
-    <state width="1886" height="245" key="GridCell.Tab.0.right" timestamp="1591982247394">
+    <state width="1886" height="245" key="GridCell.Tab.0.right" timestamp="1591985179628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="245" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591982247394" />
+    <state width="1886" height="245" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591985179628" />
     <state width="1886" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
     <state x="110" y="0" key="SettingsEditor" timestamp="1590840020067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1590840020067" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1591977983114">
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1591984887016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591977983114" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591984887016" />
     <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589133735162" />
     <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1588932261955">
       <screen x="0" y="0" width="1920" height="1040" />
