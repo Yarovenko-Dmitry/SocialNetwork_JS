@@ -26,9 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +65,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Header" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Users" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\redux" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Dialogs" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile\MyPosts" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message.jsx" />
@@ -151,7 +156,7 @@
       <workItem from="1592226544657" duration="5981000" />
       <workItem from="1592652523550" duration="2421000" />
       <workItem from="1592655390811" duration="11455000" />
-      <workItem from="1592814176427" duration="13975000" />
+      <workItem from="1592814176427" duration="20879000" />
     </task>
     <task id="LOCAL-00001" summary="SocialNetwork_v-11">
       <created>1588687449701</created>
@@ -426,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592824595161</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="SN_v-60-JS-withRouter__props.match.params">
+      <created>1592831627012</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1592831627012</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +470,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SN_v-28-JS-Move_data_into_index.js" />
     <MESSAGE value="SN_v-29-JS-Rafactor_data_in_state.js" />
     <MESSAGE value="SN_v-31-JS-onClick_ref_VirtualDOM" />
     <MESSAGE value="SN_v-32-JS-throw_callback_through_props" />
@@ -483,7 +494,8 @@
     <MESSAGE value="SN_v-57-JS-pattern-Preloader__loader-gif__isFetching-indication" />
     <MESSAGE value="SN_v-58-JS-mapDispatchToProps-life-hack" />
     <MESSAGE value="SN_v-59-JS-profile_page__ajax__api" />
-    <option name="LAST_COMMIT_MESSAGE" value="SN_v-59-JS-profile_page__ajax__api" />
+    <MESSAGE value="SN_v-60-JS-withRouter__props.match.params" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-60-JS-withRouter__props.match.params" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="285" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591193531947">
@@ -522,14 +534,14 @@
     </state>
     <state width="1886" height="117" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592817322882" />
     <state width="1886" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
-    <state x="110" y="0" key="SettingsEditor" timestamp="1590840020067">
+    <state x="110" y="0" key="SettingsEditor" timestamp="1592851077449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1590840020067" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1592824601139">
+    <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592851077449" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1592831681382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592824601139" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592831681382" />
     <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589133735162" />
     <state x="545" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592822844586">
       <screen x="0" y="0" width="1920" height="1040" />
