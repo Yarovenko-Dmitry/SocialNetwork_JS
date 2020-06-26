@@ -27,8 +27,12 @@
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersConteiner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersConteiner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +158,7 @@
       <workItem from="1592655390811" duration="11455000" />
       <workItem from="1592814176427" duration="21567000" />
       <workItem from="1593171173305" duration="1155000" />
-      <workItem from="1593179618314" duration="8886000" />
+      <workItem from="1593179618314" duration="14848000" />
     </task>
     <task id="LOCAL-00001" summary="SocialNetwork_v-11">
       <created>1588687449701</created>
@@ -457,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593187946693</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="SN_v-64-JS-practice, button disabled (follow\unfollow)">
+      <created>1593190969966</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1593190969966</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SN_v-33-JS-add_post_on_wall___start_FLUX" />
     <MESSAGE value="SN_v-34-JS-add_FLUX-loop" />
     <MESSAGE value="SN_v-35-JS-callback_subscribe_observer" />
     <MESSAGE value="SN_v-37-JS-store_state_OOP_ refactoring" />
@@ -514,7 +524,8 @@
     <MESSAGE value="SN_v-61-JS-Cookie, login in theory, auth/me" />
     <MESSAGE value="SN_v-62-JS-practice, follow-unfollow api" />
     <MESSAGE value="SN_v-63-JS- practice, DAL, axios.create" />
-    <option name="LAST_COMMIT_MESSAGE" value="SN_v-63-JS- practice, DAL, axios.create" />
+    <MESSAGE value="SN_v-64-JS-practice, button disabled (follow\unfollow)" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-64-JS-practice, button disabled (follow\unfollow)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="285" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591193531947">
@@ -533,34 +544,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="581" y="104" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588779686449" />
-    <state width="910" height="156" key="GridCell.Tab.0.bottom" timestamp="1593190638342">
+    <state width="1886" height="159" key="GridCell.Tab.0.bottom" timestamp="1593190979010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="156" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593190638342" />
+    <state width="1886" height="159" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593190979010" />
     <state width="1886" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940802" />
-    <state width="910" height="156" key="GridCell.Tab.0.center" timestamp="1593190638342">
+    <state width="1886" height="159" key="GridCell.Tab.0.center" timestamp="1593190979010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="156" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593190638342" />
+    <state width="1886" height="159" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593190979010" />
     <state width="1886" height="247" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
-    <state width="910" height="156" key="GridCell.Tab.0.left" timestamp="1593190638342">
+    <state width="1886" height="159" key="GridCell.Tab.0.left" timestamp="1593190979009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="156" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593190638342" />
+    <state width="1886" height="159" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593190979009" />
     <state width="1886" height="247" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
-    <state width="910" height="156" key="GridCell.Tab.0.right" timestamp="1593190638342">
+    <state width="1886" height="159" key="GridCell.Tab.0.right" timestamp="1593190979010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="156" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593190638342" />
+    <state width="1886" height="159" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593190979010" />
     <state width="1886" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
     <state x="110" y="0" key="SettingsEditor" timestamp="1592851077449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592851077449" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1593187999803">
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1593190977033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593187999803" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593190977033" />
     <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589133735162" />
     <state x="545" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592822844586">
       <screen x="0" y="0" width="1920" height="1040" />
