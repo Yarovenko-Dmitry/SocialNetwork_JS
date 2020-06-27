@@ -38,11 +38,11 @@ let Users = (props) => {
               {u.followed
                 ? <button disabled={props.followingInProgress.some(id => id === u.id)}
                           onClick={() => {
-                            props.unFollowThunkCreator(u.id)
+                            props.unFollow(u.id)
                           }}>Unfollow</button>
                 : <button disabled={props.followingInProgress.some(id => id === u.id)}
                           onClick={() => {
-                            props.followThunkCreator(u.id)
+                            props.follow(u.id)
 
                           }}>Follow</button>
               }

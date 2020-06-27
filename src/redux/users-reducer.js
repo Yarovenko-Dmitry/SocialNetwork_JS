@@ -78,7 +78,7 @@ export const toggleFollowingProgress = (isFetching, userId) => ({
   userId
 });
 
-export const getUsersThunkCreator = (currentPage, pageSize) => {
+export const getUsers    = (currentPage, pageSize) => {
   return (dispatch) => {
     dispatch(toggleIsFetching(true));
     usersAPI.getUsers(currentPage, pageSize).then(data => {
@@ -89,7 +89,7 @@ export const getUsersThunkCreator = (currentPage, pageSize) => {
   }
 }
 
-export const followThunkCreator = (userId) => {
+export const follow    = (userId) => {
   return (dispatch) => {
     dispatch(toggleFollowingProgress(true, userId));
     usersAPI.follow(userId).then(response => {
@@ -101,7 +101,7 @@ export const followThunkCreator = (userId) => {
   }
 }
 
-export const unFollowThunkCreator = (userId) => {
+export const unFollow    = (userId) => {
   return (dispatch) => {
     dispatch(toggleFollowingProgress(true, userId));
     usersAPI.unFollow(userId).then(response => {
