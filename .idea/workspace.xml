@@ -26,15 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsExample.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsQA!!!.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,14 +165,8 @@
       <workItem from="1594057836161" duration="388000" />
       <workItem from="1594375461292" duration="1720000" />
       <workItem from="1595255688006" duration="5328000" />
-      <workItem from="1595270838147" duration="2211000" />
-    </task>
-    <task id="LOCAL-00005" summary="SocialNetwork_v-16">
-      <created>1588776741961</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1588776741961</updated>
+      <workItem from="1595270838147" duration="2847000" />
+      <workItem from="1595318972301" duration="1595000" />
     </task>
     <task id="LOCAL-00006" summary="SocialNetwork_v-17">
       <created>1588798095972</created>
@@ -516,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593710563407</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="SN_v-76-TS-redux-form basic things again !!! with error forms profile and message">
+      <created>1595273074906</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1595273074906</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SN_v-44-JS-practice-context-API" />
     <MESSAGE value="SN_v-45-48-JS-connect_mapStateToProps_mapDispatchToProps_deep-copy-us-shallow-copy___SN_v-49-JS- practice-users-page" />
     <MESSAGE value="SN_v-51-JS-practice-Users-API" />
     <MESSAGE value="SN_v-52-JS-practice-Side-Effect" />
@@ -573,7 +567,8 @@
     <MESSAGE value="SN_v-73-JS-http put, local state" />
     <MESSAGE value="SN_v-74-JS-componentDidUpdate" />
     <MESSAGE value="SN_v-75-JS-redux-form introduction (login)" />
-    <option name="LAST_COMMIT_MESSAGE" value="SN_v-75-JS-redux-form introduction (login)" />
+    <MESSAGE value="SN_v-76-TS-redux-form basic things again !!! with error forms profile and message" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-76-TS-redux-form basic things again !!! with error forms profile and message" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="285" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591193531947">
@@ -592,34 +587,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="581" y="104" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588779686449" />
-    <state width="1886" height="127" key="GridCell.Tab.0.bottom" timestamp="1595261020717">
+    <state width="1886" height="127" key="GridCell.Tab.0.bottom" timestamp="1595318188674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595261020717" />
+    <state width="1886" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595318188674" />
     <state width="1886" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940802" />
-    <state width="1886" height="127" key="GridCell.Tab.0.center" timestamp="1595261020717">
+    <state width="1886" height="127" key="GridCell.Tab.0.center" timestamp="1595318188674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="127" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595261020717" />
+    <state width="1886" height="127" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595318188674" />
     <state width="1886" height="247" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
-    <state width="1886" height="127" key="GridCell.Tab.0.left" timestamp="1595261020716">
+    <state width="1886" height="127" key="GridCell.Tab.0.left" timestamp="1595318188674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="127" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595261020716" />
+    <state width="1886" height="127" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595318188674" />
     <state width="1886" height="247" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
-    <state width="1886" height="127" key="GridCell.Tab.0.right" timestamp="1595261020717">
+    <state width="1886" height="127" key="GridCell.Tab.0.right" timestamp="1595318188674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="127" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595261020717" />
+    <state width="1886" height="127" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595318188674" />
     <state width="1886" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
     <state x="110" y="0" key="SettingsEditor" timestamp="1592851077449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592851077449" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1593710570407">
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1595273078861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593710570407" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595273078861" />
     <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589133735162" />
     <state x="100" y="100" width="1342" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593265888461">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -44,6 +44,6 @@ const AddNewPostForm = (props) => {
   )
 }
 
-const AddNewPostFormRedux = reduxForm({from: 'ProfileAddNewPostForm'})(AddNewPostForm);
+const AddNewPostFormRedux = reduxForm({form: 'ProfileAddNewPostForm'})(AddNewPostForm);
 
 export default MyPosts;

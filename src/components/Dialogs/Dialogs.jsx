@@ -18,8 +18,6 @@ const Dialogs = (props) => {
   // }
 
   let addNewMessage = (values) => {
-    // alert('asdf')
-    alert(values.newMessagesBody);
     props.sendMessage(values.newMessagesBody);
   }
 
@@ -53,7 +51,7 @@ const AddMassageForm = (props) => {
   )
 }
 
-const AddMassageFormRedux = reduxForm({from: 'dialogAddMassageForm'})(AddMassageForm);
+const AddMassageFormRedux = reduxForm({form: 'dialogAddMassageForm'})(AddMassageForm);
 
 
 export default Dialogs;
