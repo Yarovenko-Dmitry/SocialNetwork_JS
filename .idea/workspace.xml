@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:develop" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="1bRYdzoLEHbgZVTz6eQBcx2paUb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Dialogs" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Login" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Header" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Users" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message.jsx" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\ProfileInfo.jsx" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\MyPostsAdd.jsx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\DialogItem" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Music" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="" />
+      <created>1588596464620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588596464620</updated>
+      <workItem from="1588596471716" duration="3000" />
+      <workItem from="1588686167455" duration="61000" />
+      <workItem from="1588686262285" duration="133000" />
+      <workItem from="1588686424690" duration="126000" />
+      <workItem from="1588686678942" duration="64000" />
+      <workItem from="1588686767395" duration="6158000" />
+      <workItem from="1588762029880" duration="15038000" />
+      <workItem from="1588797459808" duration="1931000" />
+      <workItem from="1588874131356" duration="14000" />
+      <workItem from="1588874215497" duration="9031000" />
+      <workItem from="1588939631438" duration="14304000" />
+      <workItem from="1589012487781" duration="2104000" />
+      <workItem from="1589110137267" duration="607000" />
+      <workItem from="1589115204520" duration="10361000" />
+      <workItem from="1589303977809" duration="607000" />
+      <workItem from="1589803335905" duration="7097000" />
+      <workItem from="1589972306692" duration="4334000" />
+      <workItem from="1589997119463" duration="7307000" />
+      <workItem from="1590042197379" duration="9947000" />
+      <workItem from="1590138273191" duration="2610000" />
+      <workItem from="1590141836516" duration="6120000" />
+      <workItem from="1590835593849" duration="609000" />
+      <workItem from="1590836456469" duration="360000" />
+      <workItem from="1590836848601" duration="6953000" />
+      <workItem from="1590852850712" duration="10000" />
+      <workItem from="1590852881795" duration="7209000" />
+      <workItem from="1591183696271" duration="25701000" />
+      <workItem from="1591261169764" duration="11884000" />
+      <workItem from="1591282417349" duration="689000" />
+      <workItem from="1591285191205" duration="883000" />
+      <workItem from="1591961395846" duration="4822000" />
+      <workItem from="1591977571961" duration="3056000" />
+      <workItem from="1591988356184" duration="33000" />
+      <workItem from="1591988654682" duration="158000" />
+      <workItem from="1592226544657" duration="5981000" />
+      <workItem from="1592652523550" duration="2421000" />
+      <workItem from="1592655390811" duration="11455000" />
+      <workItem from="1592814176427" duration="21567000" />
+      <workItem from="1593171173305" duration="1155000" />
+      <workItem from="1593179618314" duration="15870000" />
+      <workItem from="1593262030320" duration="10580000" />
+      <workItem from="1593439532516" duration="7824000" />
+      <workItem from="1593460880326" duration="1525000" />
+      <workItem from="1593523280899" duration="51000" />
+      <workItem from="1593523372519" duration="362000" />
+      <workItem from="1593532691840" duration="264000" />
+      <workItem from="1593677788069" duration="19689000" />
+      <workItem from="1593708264006" duration="3487000" />
+      <workItem from="1594057836161" duration="388000" />
+      <workItem from="1594375461292" duration="1720000" />
+      <workItem from="1595255688006" duration="5328000" />
+      <workItem from="1595270838147" duration="2847000" />
+      <workItem from="1595318972301" duration="1595000" />
+    </task>
+    <task id="LOCAL-00006" summary="SocialNetwork_v-17">
+      <created>1588798095972</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588798095972</updated>
+    </task>
+    <task id="LOCAL-00007" summary="SocialNetwork_v-18">
+      <created>1588875969735</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588875969735</updated>
+    </task>
+    <task id="LOCAL-00008" summary="SocialNetwork_v-19">
+      <created>1588935107847</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588935107847</updated>
+    </task>
+    <task id="LOCAL-00009" summary="SocialNetwork_v-19-JS">
+      <created>1588939418513</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588939418513</updated>
+    </task>
+    <task id="LOCAL-00010" summary="SocialNetwork_v-20-JS">
+      <created>1588940986860</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588940986860</updated>
+    </task>
+    <task id="LOCAL-00011" summary="SocialNetwork_v-21-JS">
+      <created>1588946593188</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588946593188</updated>
+    </task>
+    <task id="LOCAL-00012" summary="SN_v-22-JS-Route_exact">
+      <created>1588948313410</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588948313410</updated>
+    </task>
+    <task id="LOCAL-00013" summary="SN_v-23-JS-Props_for_dialogs">
+      <created>1588952701624</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588952701632</updated>
+    </task>
+    <task id="LOCAL-00014" summary="SN_v-24-JS-UI–BLL_we_take_the_data_aside">
+      <created>1588955213251</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588955213251</updated>
+    </task>
+    <task id="LOCAL-00015" summary="SN_v-28-JS-Move_data_into_index.js">
+      <created>1589128979935</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589128979935</updated>
+    </task>
+    <task id="LOCAL-00016" summary="SN_v-29-JS-Rafactor_data_in_state.js">
+      <created>1589133668590</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589133668590</updated>
+    </task>
+    <task id="LOCAL-00017" summary="SN_v-31-JS-onClick_ref_VirtualDOM">
+      <created>1589805563332</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589805563332</updated>
+    </task>
+    <task id="LOCAL-00018" summary="SN_v-32-JS-throw_callback_through_props">
+      <created>1589811015774</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1589811015774</updated>
+    </task>
+    <task id="LOCAL-00019" summary="SN_v-33-JS-add_post_on_wall___start_FLUX">
+      <created>1589977182785</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1589977182785</updated>
+    </task>
+    <task id="LOCAL-00020" summary="SN_v-34-JS-add_FLUX-loop">
+      <created>1590002459318</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590002459318</updated>
+    </task>
+    <task id="LOCAL-00021" summary="SN_v-35-JS-callback_subscribe_observer">
+      <created>1590004625584</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1590004625584</updated>
+    </task>
+    <task id="LOCAL-00022" summary="SN_v-37-JS-store_state_OOP_ refactoring">
+      <created>1590057908162</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1590057908162</updated>
+    </task>
+    <task id="LOCAL-00023" summary="SN_v-38-JS-dispatch_&amp;_action">
+      <created>1590071867382</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1590071867382</updated>
+    </task>
+    <task id="LOCAL-00024" summary="SN_v-39-JS-action-creator_action-type">
+      <created>1590141046496</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1590141046496</updated>
+    </task>
+    <task id="LOCAL-00025" summary="SN_v-40-JS-add-messages">
+      <created>1590151178753</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1590151178753</updated>
+    </task>
+    <task id="LOCAL-00026" summary="SN_v-41-JS-reducer_almost-redux">
+      <created>1590856351073</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1590856351074</updated>
+    </task>
+    <task id="LOCAL-00027" summary="SN_v-42-JS-redux">
+      <created>1590864571389</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1590864571389</updated>
+    </task>
+    <task id="LOCAL-00028" summary="SN_v-43-JS-practice-container-component">
+      <created>1591193096284</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1591193096284</updated>
+    </task>
+    <task id="LOCAL-00029" summary="SN_v-44-JS-practice-context-API">
+      <created>1591199087759</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591199087759</updated>
+    </task>
+    <task id="LOCAL-00030" summary="SN_v-45-48-JS-connect_mapStateToProps_mapDispatchToProps_deep-copy-us-shallow-copy___SN_v-49-JS- practice-users-page">
+      <created>1591275567962</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591275567962</updated>
+    </task>
+    <task id="LOCAL-00031" summary="SN_v-51-JS-practice-Users-API">
+      <created>1591966931328</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1591966931328</updated>
+    </task>
+    <task id="LOCAL-00032" summary="SN_v-52-JS-practice-Side-Effect">
+      <created>1591984880472</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591984880472</updated>
+    </task>
+    <task id="LOCAL-00033" summary="SN_v-53-JS-class-component-extends-React_Component">
+      <created>1592228164514</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1592228164514</updated>
+    </task>
+    <task id="LOCAL-00034" summary="SN_v-54-JS-life-cycle-methods_componentDidMount">
+      <created>1592234340520</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1592234340520</updated>
+    </task>
+    <task id="LOCAL-00035" summary="SN_v-55-JS-practice-pagination">
+      <created>1592658852755</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1592658852755</updated>
+    </task>
+    <task id="LOCAL-00036" summary="SN_v-56-JS-practice-Presentation-and-Container-Components">
+      <created>1592674067484</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1592674067484</updated>
+    </task>
+    <task id="LOCAL-00037" summary="SN_v-57-JS-pattern-Preloader__loader-gif__isFetching-indication">
+      <created>1592817313626</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1592817313626</updated>
+    </task>
+    <task id="LOCAL-00038" summary="SN_v-58-JS-mapDispatchToProps-life-hack">
+      <created>1592820543187</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1592820543188</updated>
+    </task>
+    <task id="LOCAL-00039" summary="SN_v-59-JS-profile_page__ajax__api">
+      <created>1592824595161</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1592824595161</updated>
+    </task>
+    <task id="LOCAL-00040" summary="SN_v-60-JS-withRouter__props.match.params">
+      <created>1592831627012</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1592831627012</updated>
+    </task>
+    <task id="LOCAL-00041" summary="SN_v-61-JS-Cookie, login in theory, auth/me">
+      <created>1592856213823</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1592856213823</updated>
+    </task>
+    <task id="LOCAL-00042" summary="SN_v-62-JS-practice, follow-unfollow api">
+      <created>1593182670114</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1593182670114</updated>
+    </task>
+    <task id="LOCAL-00043" summary="SN_v-63-JS- practice, DAL, axios.create">
+      <created>1593187946693</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1593187946693</updated>
+    </task>
+    <task id="LOCAL-00044" summary="SN_v-64-JS-practice, button disabled (follow\unfollow)">
+      <created>1593190969966</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1593190969966</updated>
+    </task>
+    <task id="LOCAL-00045" summary="SN_v-66-JS-redux-thunk in details (practice)">
+      <created>1593198748679</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1593198748679</updated>
+    </task>
+    <task id="LOCAL-00046" summary="SN_v-67-JS- redux-thunk in details (practice)-2">
+      <created>1593271451194</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1593271451194</updated>
+    </task>
+    <task id="LOCAL-00047" summary="SN_v-68-JS-Redirect">
+      <created>1593277217489</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1593277217489</updated>
+    </task>
+    <task id="LOCAL-00048" summary="SN_v-69-JS-High Order Component (hoc)">
+      <created>1593443279299</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1593443279299</updated>
+    </task>
+    <task id="LOCAL-00049" summary="SN_v-70-JS-function compose">
+      <created>1593461708183</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1593461708183</updated>
+    </task>
+    <task id="LOCAL-00050" summary="SN_v-71-JS- setState, local state">
+      <created>1593681890010</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1593681890010</updated>
+    </task>
+    <task id="LOCAL-00051" summary="SN_v-73-JS-http put, local state">
+      <created>1593697024477</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1593697024477</updated>
+    </task>
+    <task id="LOCAL-00052" summary="SN_v-74-JS-componentDidUpdate">
+      <created>1593705841061</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1593705841061</updated>
+    </task>
+    <task id="LOCAL-00053" summary="SN_v-75-JS-redux-form introduction (login)">
+      <created>1593710563406</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1593710563407</updated>
+    </task>
+    <task id="LOCAL-00054" summary="SN_v-76-TS-redux-form basic things again !!! with error forms profile and message">
+      <created>1595273074906</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1595273074906</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="SN_v-45-48-JS-connect_mapStateToProps_mapDispatchToProps_deep-copy-us-shallow-copy___SN_v-49-JS- practice-users-page" />
+    <MESSAGE value="SN_v-51-JS-practice-Users-API" />
+    <MESSAGE value="SN_v-52-JS-practice-Side-Effect" />
+    <MESSAGE value="SN_v-53-JS-class-component-extends-React_Component" />
+    <MESSAGE value="SN_v-54-JS-life-cycle-methods_componentDidMount" />
+    <MESSAGE value="SN_v-55-JS-practice-pagination" />
+    <MESSAGE value="SN_v-56-JS-practice-Presentation-and-Container-Components" />
+    <MESSAGE value="SN_v-57-JS-pattern-Preloader__loader-gif__isFetching-indication" />
+    <MESSAGE value="SN_v-58-JS-mapDispatchToProps-life-hack" />
+    <MESSAGE value="SN_v-59-JS-profile_page__ajax__api" />
+    <MESSAGE value="SN_v-60-JS-withRouter__props.match.params" />
+    <MESSAGE value="SN_v-61-JS-Cookie, login in theory, auth/me" />
+    <MESSAGE value="SN_v-62-JS-practice, follow-unfollow api" />
+    <MESSAGE value="SN_v-63-JS- practice, DAL, axios.create" />
+    <MESSAGE value="SN_v-64-JS-practice, button disabled (follow\unfollow)" />
+    <MESSAGE value="SN_v-66-JS-redux-thunk in details (practice)" />
+    <MESSAGE value="SN_v-67-JS- redux-thunk in details (practice)-2" />
+    <MESSAGE value="SN_v-68-JS-Redirect" />
+    <MESSAGE value="SN_v-69-JS-High Order Component (hoc)" />
+    <MESSAGE value="SN_v-70-JS-function compose" />
+    <MESSAGE value="SN_v-71-JS- setState, local state" />
+    <MESSAGE value="SN_v-73-JS-http put, local state" />
+    <MESSAGE value="SN_v-74-JS-componentDidUpdate" />
+    <MESSAGE value="SN_v-75-JS-redux-form introduction (login)" />
+    <MESSAGE value="SN_v-76-TS-redux-form basic things again !!! with error forms profile and message" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-76-TS-redux-form basic things again !!! with error forms profile and message" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="583" y="285" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591193531947">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="285" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591193531947" />
+    <state x="493" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592227478730">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="493" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592227478730" />
+    <state x="100" y="100" width="1622" height="840" key="DiffContextDialog" timestamp="1592658745397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="100" width="1622" height="840" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592658745397" />
+    <state x="581" y="104" key="FileChooserDialogImpl" timestamp="1588779686449">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="581" y="104" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1588779686449" />
+    <state width="1886" height="127" key="GridCell.Tab.0.bottom" timestamp="1595318188674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595318188674" />
+    <state width="1886" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940802" />
+    <state width="1886" height="127" key="GridCell.Tab.0.center" timestamp="1595318188674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="127" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595318188674" />
+    <state width="1886" height="247" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
+    <state width="1886" height="127" key="GridCell.Tab.0.left" timestamp="1595318188674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="127" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595318188674" />
+    <state width="1886" height="247" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
+    <state width="1886" height="127" key="GridCell.Tab.0.right" timestamp="1595318188674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="127" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595318188674" />
+    <state width="1886" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589134940801" />
+    <state x="110" y="0" key="SettingsEditor" timestamp="1592851077449">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592851077449" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1595273078861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595273078861" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589133735162" />
+    <state x="100" y="100" width="1342" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593265888461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="100" width="1342" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1593265888461" />
+    <state x="545" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592822844586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="545" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592822844586" />
+    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1594058095186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1594058095186" />
+  </component>
+</project>
