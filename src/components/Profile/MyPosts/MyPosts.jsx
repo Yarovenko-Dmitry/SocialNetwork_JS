@@ -10,14 +10,13 @@ const MyPosts = (props) => {
       <Post message={p.message} likesCount={p.likesCount}/>
     );
 
-  let newPostElement = React.createRef();
+  // let newPostElement = React.createRef();
 
   const onAddPost = (values) => {
     props.addPost(values.newPostText);
   };
 
   return (
-
     <div className={s.postsBlock}>
       <h3>My posts</h3>
       <AddNewPostFormRedux onSubmit={onAddPost}/>
