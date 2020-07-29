@@ -26,16 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
+      <change afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,31 +64,31 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/FormsControls" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\DialogItem" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Music" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\redux" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\FormsControls" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Dialogs" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Login" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Header" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message.jsx" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\ProfileInfo.jsx" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\MyPostsAdd.jsx" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\FormsControls" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Dialogs" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Login" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Header" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\DialogItem" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Music" />
     </key>
   </component>
   <component name="RunManager">
@@ -183,14 +180,7 @@
       <workItem from="1595866402307" duration="627000" />
       <workItem from="1595956137893" duration="65000" />
       <workItem from="1595956350441" duration="3673000" />
-      <workItem from="1596007011435" duration="11288000" />
-    </task>
-    <task id="LOCAL-00008" summary="SocialNetwork_v-19">
-      <created>1588935107847</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1588935107847</updated>
+      <workItem from="1596007011435" duration="19329000" />
     </task>
     <task id="LOCAL-00009" summary="SocialNetwork_v-19-JS">
       <created>1588939418513</created>
@@ -528,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595960101797</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="SN_v-78-79-JS-(login и logout api) &amp;&amp;&amp;( stopSubmit (redux-form))">
+      <created>1596024982938</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1596024982939</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +557,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SN_v-52-JS-practice-Side-Effect" />
     <MESSAGE value="SN_v-53-JS-class-component-extends-React_Component" />
     <MESSAGE value="SN_v-54-JS-life-cycle-methods_componentDidMount" />
     <MESSAGE value="SN_v-55-JS-practice-pagination" />
@@ -585,7 +581,8 @@
     <MESSAGE value="SN_v-76-TS-redux-form basic things again !!! with error forms profile and message" />
     <MESSAGE value="SN_v-76-JS-redux-form basic things again: fix error" />
     <MESSAGE value="SN_v-77-JS-redux-form field validation &amp; errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="SN_v-77-JS-redux-form field validation &amp; errors" />
+    <MESSAGE value="SN_v-78-79-JS-(login и logout api) &amp;&amp;&amp;( stopSubmit (redux-form))" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-78-79-JS-(login и logout api) &amp;&amp;&amp;( stopSubmit (redux-form))" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="285" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591193531947">
@@ -628,10 +625,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592851077449" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1595960113778">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2172" y="68" key="Vcs.Push.Dialog.v2" timestamp="1596024991276">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595960113778" />
+    <state x="2172" y="68" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596024991276" />
     <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589133735162" />
     <state x="100" y="100" width="1342" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593265888461">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -641,9 +639,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="545" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592822844586" />
-    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1596019664706">
+    <state x="544" y="114" width="832" height="812" key="find.popup" timestamp="1596026063873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596019664706" />
+    <state x="544" y="114" width="832" height="812" key="find.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596026063873" />
+    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1596026082373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596026082373" />
   </component>
 </project>
