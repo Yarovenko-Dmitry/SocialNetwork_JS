@@ -27,7 +27,7 @@ const MyPosts = (props) => {
   )
 }
 
-const maxLength10 = maxLengthCreator(10)
+const maxLength10 = maxLengthCreator(10);
 
 const AddNewPostForm = (props) => {
   return (
