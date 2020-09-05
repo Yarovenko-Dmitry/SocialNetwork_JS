@@ -58,7 +58,6 @@ let Users = (props) => {
                <div>{'u.location.city'}</div>
              </span>
           </span>
-
         </div>)
       }
     </div>
