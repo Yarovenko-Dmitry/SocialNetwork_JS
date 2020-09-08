@@ -1,6 +1,7 @@
 import profileReducer, {addPostActionCreator, deletePostActionCreator} from './profile-reducer';
 import React from 'react';
 
+
 let state = {
   posts: [
     {id: 1, message: 'Hi, how are you?', likesCount: 0},
