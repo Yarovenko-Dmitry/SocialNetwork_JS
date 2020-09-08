@@ -27,7 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,14 +179,7 @@
       <workItem from="1596007011435" duration="21381000" />
       <workItem from="1599322672293" duration="4190000" />
       <workItem from="1599558266334" duration="3843000" />
-      <workItem from="1599575881403" duration="828000" />
-    </task>
-    <task id="LOCAL-00012" summary="SN_v-22-JS-Route_exact">
-      <created>1588948313410</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1588948313410</updated>
+      <workItem from="1599575881403" duration="3471000" />
     </task>
     <task id="LOCAL-00013" summary="SN_v-23-JS-Props_for_dialogs">
       <created>1588952701624</created>
@@ -524,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599566029585</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="SN_v-85-JS- hook, useEffect">
+      <created>1599576862427</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1599576862428</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +556,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SN_v-56-JS-practice-Presentation-and-Container-Components" />
     <MESSAGE value="SN_v-57-JS-pattern-Preloader__loader-gif__isFetching-indication" />
     <MESSAGE value="SN_v-58-JS-mapDispatchToProps-life-hack" />
     <MESSAGE value="SN_v-59-JS-profile_page__ajax__api" />
@@ -581,7 +580,8 @@
     <MESSAGE value="SN_v-80-JS- application initialization" />
     <MESSAGE value="SN_v-80-JS- selectors (reselect part 1)" />
     <MESSAGE value="SN_v-84-JS- hook, useState" />
-    <option name="LAST_COMMIT_MESSAGE" value="SN_v-84-JS- hook, useState" />
+    <MESSAGE value="SN_v-85-JS- hook, useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-85-JS- hook, useEffect" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="285" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591193531947">
@@ -596,30 +596,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-576" y="122" width="1622" height="840" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599324225284" />
-    <state width="1886" height="145" key="GridCell.Tab.0.bottom" timestamp="1599566034976">
+    <state width="1886" height="145" key="GridCell.Tab.0.bottom" timestamp="1599579224614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599566034976" />
-    <state width="1886" height="145" key="GridCell.Tab.0.center" timestamp="1599566034976">
+    <state width="1886" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599579224614" />
+    <state width="1886" height="145" key="GridCell.Tab.0.center" timestamp="1599579224614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="145" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599566034976" />
-    <state width="1886" height="145" key="GridCell.Tab.0.left" timestamp="1599566034976">
+    <state width="1886" height="145" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599579224614" />
+    <state width="1886" height="145" key="GridCell.Tab.0.left" timestamp="1599579224613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="145" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599566034976" />
-    <state width="1886" height="145" key="GridCell.Tab.0.right" timestamp="1599566034976">
+    <state width="1886" height="145" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599579224613" />
+    <state width="1886" height="145" key="GridCell.Tab.0.right" timestamp="1599579224614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="145" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599566034976" />
+    <state width="1886" height="145" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599579224614" />
     <state x="110" y="0" key="SettingsEditor" timestamp="1592851077449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592851077449" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1599323624741">
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1599576866595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599323624741" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599576866595" />
     <state x="2172" y="68" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596024991276" />
     <state x="100" y="100" width="1342" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593265888461">
       <screen x="0" y="0" width="1920" height="1040" />
