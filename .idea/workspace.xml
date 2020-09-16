@@ -26,19 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
-      <change afterPath="$PROJECT_DIR$/src/components/Users/User.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/object-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersConteiner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersConteiner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -79,6 +76,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Users" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\Paginator" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\redux" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\FormsControls" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message.jsx" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\ProfileInfo.jsx" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\MyPostsAdd.jsx" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\Paginator" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message" />
@@ -86,89 +95,84 @@
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts" />
     </key>
-    <key name="es6.move.members.recent.items">
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message.jsx" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\ProfileInfo.jsx" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\MyPostsAdd.jsx" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Users" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\Paginator" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\redux" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\FormsControls" />
-    </key>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="after deleting length of posts should be decremented " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.ProfileStatus component.input should be displayed in editMode insted of span (1)">
+    <configuration name="ProfileStatus component.callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.test.jsx" />
       <test-names>
-        <test-name value="after deleting length of posts should be decremented " />
+        <test-name value="ProfileStatus component" />
+        <test-name value="callback should be called" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="after deleting length of posts should`t be decremented if id incorrect" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileStatus component.input should be displayed in editMode insted of span (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.test.js" />
       <test-names>
-        <test-name value="after deleting length of posts should`t be decremented if id incorrect" />
+        <test-name value="ProfileStatus component" />
+        <test-name value="input should be displayed in editMode insted of span" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="length of posts should be incrimented " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileStatus component.input should be displayed in editMode insted of span" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.test.jsx" />
       <test-names>
-        <test-name value="length of posts should be incrimented " />
+        <test-name value="ProfileStatus component" />
+        <test-name value="input should be displayed in editMode insted of span" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="message should be 'newPostText' " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileStatus component.status from props should be in the state" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.test.js" />
       <test-names>
-        <test-name value="message should be 'newPostText' " />
+        <test-name value="ProfileStatus component" />
+        <test-name value="status from props should be in the state" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
+    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="renders without crashing" />
+      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="Jest.after deleting length of posts should`t be decremented if id incorrect" />
-        <item itemvalue="Jest.after deleting length of posts should be decremented " />
-        <item itemvalue="Jest.message should be 'newPostText' " />
-        <item itemvalue="Jest.length of posts should be incrimented " />
+        <item itemvalue="Jest.ProfileStatus component.input should be displayed in editMode insted of span (1)" />
+        <item itemvalue="Jest.ProfileStatus component.status from props should be in the state" />
+        <item itemvalue="Jest.renders without crashing" />
+        <item itemvalue="Jest.ProfileStatus component.callback should be called" />
+        <item itemvalue="Jest.ProfileStatus component.input should be displayed in editMode insted of span" />
       </list>
     </recent_temporary>
   </component>
@@ -248,14 +252,9 @@
       <workItem from="1599322672293" duration="4190000" />
       <workItem from="1599558266334" duration="3843000" />
       <workItem from="1599575881403" duration="7479000" />
-      <workItem from="1599644899438" duration="9897000" />
-    </task>
-    <task id="LOCAL-00016" summary="SN_v-29-JS-Rafactor_data_in_state.js">
-      <created>1589133668590</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1589133668590</updated>
+      <workItem from="1599644899438" duration="10031000" />
+      <workItem from="1600261326059" duration="40000" />
+      <workItem from="1600261440005" duration="7657000" />
     </task>
     <task id="LOCAL-00017" summary="SN_v-31-JS-onClick_ref_VirtualDOM">
       <created>1589805563332</created>
@@ -593,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599594217381</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="SN_v-90-JS-redux-ducks- refactor- React JS">
+      <created>1599662388010</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1599662388010</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +631,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SN_v-60-JS-withRouter__props.match.params" />
     <MESSAGE value="SN_v-61-JS-Cookie, login in theory, auth/me" />
     <MESSAGE value="SN_v-62-JS-practice, follow-unfollow api" />
     <MESSAGE value="SN_v-63-JS- practice, DAL, axios.create" />
@@ -650,13 +655,14 @@
     <MESSAGE value="SN_v-87-JS- shouldComponentUpdate, PureComponent, memo - React JS" />
     <MESSAGE value="SN_v-87-JS- Tests, jest, tdd, reducer test- React JS" />
     <MESSAGE value="SN_v-89-JS- Tests, jest, tdd, reducer test- React JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="SN_v-89-JS- Tests, jest, tdd, reducer test- React JS" />
+    <MESSAGE value="SN_v-90-JS-redux-ducks- refactor- React JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-90-JS-redux-ducks- refactor- React JS" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="285" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591193531947">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600264342786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="285" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1591193531947" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600264342786" />
     <state x="493" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592227478730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -665,30 +671,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-576" y="122" width="1622" height="840" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599324225284" />
-    <state width="1886" height="203" key="GridCell.Tab.0.bottom" timestamp="1599661963859">
+    <state width="1886" height="213" key="GridCell.Tab.0.bottom" timestamp="1600272247918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599661963859" />
-    <state width="1886" height="203" key="GridCell.Tab.0.center" timestamp="1599661963858">
+    <state width="1886" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600272247918" />
+    <state width="1886" height="213" key="GridCell.Tab.0.center" timestamp="1600272247918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599661963858" />
-    <state width="1886" height="203" key="GridCell.Tab.0.left" timestamp="1599661963858">
+    <state width="1886" height="213" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600272247918" />
+    <state width="1886" height="213" key="GridCell.Tab.0.left" timestamp="1600272247918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599661963858" />
-    <state width="1886" height="203" key="GridCell.Tab.0.right" timestamp="1599661963858">
+    <state width="1886" height="213" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600272247918" />
+    <state width="1886" height="213" key="GridCell.Tab.0.right" timestamp="1600272247918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599661963858" />
+    <state width="1886" height="213" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600272247918" />
     <state x="110" y="0" key="SettingsEditor" timestamp="1592851077449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592851077449" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1599594221677">
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1599662395051">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599594221677" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599662395051" />
     <state x="2172" y="68" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596024991276" />
     <state x="100" y="100" width="1342" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593265888461">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -706,9 +712,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="447" y="226" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599559951711" />
-    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1596046901425">
+    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1600269424387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596046901425" />
+    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600269424387" />
   </component>
 </project>
