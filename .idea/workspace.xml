@@ -26,15 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/User.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/Paginator" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -77,9 +76,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\Paginator" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Users" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\Paginator" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\redux" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\FormsControls" />
     </key>
@@ -96,18 +95,32 @@
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.ProfileStatus component.input should be displayed in editMode insted of span (1)">
-    <configuration name="ProfileStatus component.callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Paginator component tests.if pages count is more then 10 button NEXT should be present">
+    <configuration name="Paginator component tests.if pages count is more then 10 button NEXT should be present" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-file value="$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.js" />
       <test-names>
-        <test-name value="ProfileStatus component" />
-        <test-name value="callback should be called" />
+        <test-name value="Paginator component tests" />
+        <test-name value="if pages count is more then 10 button NEXT should be present" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Paginator component tests.pages count is 11 but should be be showe only 10" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.js" />
+      <test-names>
+        <test-name value="Paginator component tests" />
+        <test-name value="pages count is 11 but should be be showe only 10" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -119,20 +132,6 @@
       <envs />
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.test.js" />
-      <test-names>
-        <test-name value="ProfileStatus component" />
-        <test-name value="input should be displayed in editMode insted of span" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="ProfileStatus component.input should be displayed in editMode insted of span" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatus.test.jsx" />
       <test-names>
         <test-name value="ProfileStatus component" />
         <test-name value="input should be displayed in editMode insted of span" />
@@ -153,26 +152,23 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
       <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
-      <test-names>
-        <test-name value="renders without crashing" />
-      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Paginator component tests.if pages count is more then 10 button NEXT should be present" />
+        <item itemvalue="Jest.Paginator component tests.pages count is 11 but should be be showe only 10" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.ProfileStatus component.input should be displayed in editMode insted of span (1)" />
         <item itemvalue="Jest.ProfileStatus component.status from props should be in the state" />
-        <item itemvalue="Jest.renders without crashing" />
-        <item itemvalue="Jest.ProfileStatus component.callback should be called" />
-        <item itemvalue="Jest.ProfileStatus component.input should be displayed in editMode insted of span" />
       </list>
     </recent_temporary>
   </component>
@@ -254,14 +250,9 @@
       <workItem from="1599575881403" duration="7479000" />
       <workItem from="1599644899438" duration="10031000" />
       <workItem from="1600261326059" duration="40000" />
-      <workItem from="1600261440005" duration="7657000" />
-    </task>
-    <task id="LOCAL-00017" summary="SN_v-31-JS-onClick_ref_VirtualDOM">
-      <created>1589805563332</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1589805563332</updated>
+      <workItem from="1600261440005" duration="10966000" />
+      <workItem from="1600278108676" duration="144000" />
+      <workItem from="1600278628933" duration="4170000" />
     </task>
     <task id="LOCAL-00018" summary="SN_v-32-JS-throw_callback_through_props">
       <created>1589811015774</created>
@@ -599,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599662388010</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="SN_v-92-JS- Test component, react-test-renderer - React JS">
+      <created>1600272416330</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1600272416331</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +629,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SN_v-61-JS-Cookie, login in theory, auth/me" />
     <MESSAGE value="SN_v-62-JS-practice, follow-unfollow api" />
     <MESSAGE value="SN_v-63-JS- practice, DAL, axios.create" />
     <MESSAGE value="SN_v-64-JS-practice, button disabled (follow\unfollow)" />
@@ -656,13 +653,14 @@
     <MESSAGE value="SN_v-87-JS- Tests, jest, tdd, reducer test- React JS" />
     <MESSAGE value="SN_v-89-JS- Tests, jest, tdd, reducer test- React JS" />
     <MESSAGE value="SN_v-90-JS-redux-ducks- refactor- React JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="SN_v-90-JS-redux-ducks- refactor- React JS" />
+    <MESSAGE value="SN_v-92-JS- Test component, react-test-renderer - React JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-92-JS- Test component, react-test-renderer - React JS" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600264342786">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600279304053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600264342786" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600279304053" />
     <state x="493" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592227478730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -671,30 +669,78 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-576" y="122" width="1622" height="840" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599324225284" />
-    <state width="1886" height="213" key="GridCell.Tab.0.bottom" timestamp="1600272247918">
+    <state width="1886" height="239" key="GridCell.Tab.0.bottom" timestamp="1600281607844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600272247918" />
-    <state width="1886" height="213" key="GridCell.Tab.0.center" timestamp="1600272247918">
+    <state width="1886" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600281607844" />
+    <state width="1886" height="239" key="GridCell.Tab.0.center" timestamp="1600281607843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="213" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600272247918" />
-    <state width="1886" height="213" key="GridCell.Tab.0.left" timestamp="1600272247918">
+    <state width="1886" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600281607843" />
+    <state width="1886" height="239" key="GridCell.Tab.0.left" timestamp="1600281607843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="213" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600272247918" />
-    <state width="1886" height="213" key="GridCell.Tab.0.right" timestamp="1600272247918">
+    <state width="1886" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600281607843" />
+    <state width="1886" height="239" key="GridCell.Tab.0.right" timestamp="1600281607844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="213" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600272247918" />
+    <state width="1886" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600281607844" />
+    <state width="1886" height="309" key="GridCell.Tab.1.bottom" timestamp="1600280152792">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152792" />
+    <state width="1886" height="309" key="GridCell.Tab.1.center" timestamp="1600280152792">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152792" />
+    <state width="1886" height="309" key="GridCell.Tab.1.left" timestamp="1600280152792">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152792" />
+    <state width="1886" height="309" key="GridCell.Tab.1.right" timestamp="1600280152792">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152792" />
+    <state width="1886" height="309" key="GridCell.Tab.2.bottom" timestamp="1600280152793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152793" />
+    <state width="1886" height="309" key="GridCell.Tab.2.center" timestamp="1600280152793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152793" />
+    <state width="1886" height="309" key="GridCell.Tab.2.left" timestamp="1600280152792">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152792" />
+    <state width="1886" height="309" key="GridCell.Tab.2.right" timestamp="1600280152793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152793" />
+    <state width="1886" height="309" key="GridCell.Tab.3.bottom" timestamp="1600280152793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152793" />
+    <state width="1886" height="309" key="GridCell.Tab.3.center" timestamp="1600280152793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152793" />
+    <state width="1886" height="309" key="GridCell.Tab.3.left" timestamp="1600280152793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152793" />
+    <state width="1886" height="309" key="GridCell.Tab.3.right" timestamp="1600280152793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1886" height="309" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600280152793" />
     <state x="110" y="0" key="SettingsEditor" timestamp="1592851077449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592851077449" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1599662395051">
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1600272424675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599662395051" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600272424675" />
     <state x="2172" y="68" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596024991276" />
     <state x="100" y="100" width="1342" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593265888461">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -704,10 +750,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="545" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592822844586" />
-    <state x="544" y="114" width="832" height="812" key="find.popup" timestamp="1596026063873">
+    <state x="544" y="114" width="832" height="812" key="find.popup" timestamp="1600281366306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="544" y="114" width="832" height="812" key="find.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596026063873" />
+    <state x="544" y="114" width="832" height="812" key="find.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600281366306" />
     <state x="447" y="226" key="run.anything.popup" timestamp="1599559951711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
