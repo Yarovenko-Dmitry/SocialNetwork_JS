@@ -28,7 +28,6 @@ class App extends React.Component {
     if (!this.props.initialized) {
       return <Preloader/>
     }
-
     return (
       <div className={'app-wrapper'}>
         <HeaderContainer/>
@@ -42,7 +41,6 @@ class App extends React.Component {
                  render={() => <UsersContainer/>}/>
           <Route path={'/login'}
                  render={() => <LoginPage/>}/>
-
 
           <Route path={'/news'}
                  component={News}/>
@@ -65,7 +63,6 @@ const AppContainer = compose(
   connect(mapStateToPropse, {initializeApp}))(App);
 
 export const SamuraiJSApp = (props) => {
-  // return <HashRouter basename={process.env.PUBLIC_URL}>
     return <HashRouter>
     <Provider store={store}>
       <AppContainer/>

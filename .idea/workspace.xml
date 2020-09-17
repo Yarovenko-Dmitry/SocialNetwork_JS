@@ -27,9 +27,13 @@
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,8 +164,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
-        <item itemvalue="Jest.Paginator component tests.if pages count is more then 10 button NEXT should be present" />
         <item itemvalue="Jest.Paginator component tests.pages count is 11 but should be be showe only 10" />
+        <item itemvalue="Jest.Paginator component tests.if pages count is more then 10 button NEXT should be present" />
         <item itemvalue="Jest.ProfileStatus component.input should be displayed in editMode insted of span (1)" />
         <item itemvalue="Jest.ProfileStatus component.status from props should be in the state" />
       </list>
@@ -249,13 +253,8 @@
       <workItem from="1600278108676" duration="144000" />
       <workItem from="1600278628933" duration="4275000" />
       <workItem from="1600330013674" duration="3484000" />
-    </task>
-    <task id="LOCAL-00019" summary="SN_v-33-JS-add_post_on_wall___start_FLUX">
-      <created>1589977182785</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1589977182785</updated>
+      <workItem from="1600348923535" duration="1581000" />
+      <workItem from="1600350854741" duration="7114000" />
     </task>
     <task id="LOCAL-00020" summary="SN_v-34-JS-add_FLUX-loop">
       <created>1590002459318</created>
@@ -593,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600283292285</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="SN_v-95-JS- github pages, deploy project - React JS">
+      <created>1600345311029</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1600345311030</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +631,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SN_v-63-JS- practice, DAL, axios.create" />
     <MESSAGE value="SN_v-64-JS-practice, button disabled (follow\unfollow)" />
     <MESSAGE value="SN_v-66-JS-redux-thunk in details (practice)" />
     <MESSAGE value="SN_v-67-JS- redux-thunk in details (practice)-2" />
@@ -650,7 +655,8 @@
     <MESSAGE value="SN_v-90-JS-redux-ducks- refactor- React JS" />
     <MESSAGE value="SN_v-92-JS- Test component, react-test-renderer - React JS" />
     <MESSAGE value="SN_v-93-JS- paginator-Practice- React JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="SN_v-93-JS- paginator-Practice- React JS" />
+    <MESSAGE value="SN_v-95-JS- github pages, deploy project - React JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-95-JS- github pages, deploy project - React JS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600279304053">
@@ -665,22 +671,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-576" y="122" width="1622" height="840" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599324225284" />
-    <state width="1886" height="244" key="GridCell.Tab.0.bottom" timestamp="1600336797981">
+    <state width="910" height="244" key="GridCell.Tab.0.bottom" timestamp="1600350504950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600336797981" />
-    <state width="1886" height="244" key="GridCell.Tab.0.center" timestamp="1600336797980">
+    <state width="910" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600350504950" />
+    <state width="910" height="244" key="GridCell.Tab.0.center" timestamp="1600350504949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="244" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600336797980" />
-    <state width="1886" height="244" key="GridCell.Tab.0.left" timestamp="1600336797980">
+    <state width="910" height="244" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600350504949" />
+    <state width="910" height="244" key="GridCell.Tab.0.left" timestamp="1600350504949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="244" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600336797980" />
-    <state width="1886" height="244" key="GridCell.Tab.0.right" timestamp="1600336797980">
+    <state width="910" height="244" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600350504949" />
+    <state width="910" height="244" key="GridCell.Tab.0.right" timestamp="1600350504950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="244" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600336797980" />
+    <state width="910" height="244" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600350504950" />
     <state width="1886" height="309" key="GridCell.Tab.1.bottom" timestamp="1600283309402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -737,10 +743,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592851077449" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1600283303229">
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1600345316837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600283303229" />
+    <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600345316837" />
     <state x="2172" y="68" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596024991276" />
     <state x="100" y="100" width="1342" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593265888461">
       <screen x="0" y="0" width="1920" height="1040" />
