@@ -26,9 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
-      <change afterPath="$PROJECT_DIR$/src/hoc/withSuspense.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -664,22 +665,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-576" y="122" width="1622" height="840" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599324225284" />
-    <state width="1886" height="309" key="GridCell.Tab.0.bottom" timestamp="1600283309401">
+    <state width="1886" height="244" key="GridCell.Tab.0.bottom" timestamp="1600336797981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600283309401" />
-    <state width="1886" height="309" key="GridCell.Tab.0.center" timestamp="1600283309401">
+    <state width="1886" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600336797981" />
+    <state width="1886" height="244" key="GridCell.Tab.0.center" timestamp="1600336797980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="309" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600283309401" />
-    <state width="1886" height="309" key="GridCell.Tab.0.left" timestamp="1600283309401">
+    <state width="1886" height="244" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600336797980" />
+    <state width="1886" height="244" key="GridCell.Tab.0.left" timestamp="1600336797980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="309" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600283309401" />
-    <state width="1886" height="309" key="GridCell.Tab.0.right" timestamp="1600283309401">
+    <state width="1886" height="244" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600336797980" />
+    <state width="1886" height="244" key="GridCell.Tab.0.right" timestamp="1600336797980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1886" height="309" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600283309401" />
+    <state width="1886" height="244" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600336797980" />
     <state width="1886" height="309" key="GridCell.Tab.1.bottom" timestamp="1600283309402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -728,6 +729,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1886" height="309" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600283309403" />
+    <state x="563" y="79" key="RollbackChangesDialog" timestamp="1600334767351">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="563" y="79" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600334767351" />
     <state x="110" y="0" key="SettingsEditor" timestamp="1592851077449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -745,10 +750,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="545" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592822844586" />
-    <state x="544" y="114" width="832" height="812" key="find.popup" timestamp="1600281366306">
+    <state x="544" y="114" width="832" height="812" key="find.popup" timestamp="1600342405171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="544" y="114" width="832" height="812" key="find.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600281366306" />
+    <state x="544" y="114" width="832" height="812" key="find.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600342405171" />
     <state x="447" y="226" key="run.anything.popup" timestamp="1599559951711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
