@@ -26,11 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35815efd-7fda-4c38-ad2a-c991ecadd452" name="Default Changelist" comment="K">
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileDataForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
@@ -74,24 +76,25 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\Paginator" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Users" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\redux" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\FormsControls" />
-    </key>
-    <key name="es6.move.members.recent.items">
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message.jsx" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\ProfileInfo.jsx" />
-      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\MyPostsAdd.jsx" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\Paginator" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\DialogItem" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo" />
       <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo\ProfileDataForm.jsx" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Dialogs\Message.jsx" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\ProfileInfo.jsx" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\SocialNetwork_JS\src\components\Profile\MyPosts\MyPostsAdd.jsx" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\Paginator" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Profile\MyPosts\ProfileInfo" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\Users" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\redux" />
+      <recent name="L:\-=IT-Incubator=-\-=GIT-IT-incubator-tasks=-\2_SocialNetwork_JS\src\components\common\FormsControls" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -254,14 +257,9 @@
       <workItem from="1600278628933" duration="4275000" />
       <workItem from="1600330013674" duration="3484000" />
       <workItem from="1600348923535" duration="1581000" />
-      <workItem from="1600350854741" duration="7114000" />
-    </task>
-    <task id="LOCAL-00020" summary="SN_v-34-JS-add_FLUX-loop">
-      <created>1590002459318</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1590002459318</updated>
+      <workItem from="1600350854741" duration="7876000" />
+      <workItem from="1600425755682" duration="2904000" />
+      <workItem from="1600429457657" duration="13790000" />
     </task>
     <task id="LOCAL-00021" summary="SN_v-35-JS-callback_subscribe_observer">
       <created>1590004625584</created>
@@ -599,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600345311030</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="SN_v-95-JS- upload img, shouldComponentUpdate fix - React JS">
+      <created>1600360022821</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1600360022821</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +636,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SN_v-64-JS-practice, button disabled (follow\unfollow)" />
     <MESSAGE value="SN_v-66-JS-redux-thunk in details (practice)" />
     <MESSAGE value="SN_v-67-JS- redux-thunk in details (practice)-2" />
     <MESSAGE value="SN_v-68-JS-Redirect" />
@@ -656,7 +660,8 @@
     <MESSAGE value="SN_v-92-JS- Test component, react-test-renderer - React JS" />
     <MESSAGE value="SN_v-93-JS- paginator-Practice- React JS" />
     <MESSAGE value="SN_v-95-JS- github pages, deploy project - React JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="SN_v-95-JS- github pages, deploy project - React JS" />
+    <MESSAGE value="SN_v-95-JS- upload img, shouldComponentUpdate fix - React JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="SN_v-95-JS- upload img, shouldComponentUpdate fix - React JS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600279304053">
@@ -671,22 +676,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-576" y="122" width="1622" height="840" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599324225284" />
-    <state width="910" height="244" key="GridCell.Tab.0.bottom" timestamp="1600350504950">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1886" height="158" key="GridCell.Tab.0.bottom" timestamp="1600447917104">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="910" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600350504950" />
-    <state width="910" height="244" key="GridCell.Tab.0.center" timestamp="1600350504949">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1886" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600428661387" />
+    <state width="1886" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600447917104" />
+    <state width="1886" height="158" key="GridCell.Tab.0.center" timestamp="1600447917103">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="910" height="244" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600350504949" />
-    <state width="910" height="244" key="GridCell.Tab.0.left" timestamp="1600350504949">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1886" height="158" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600428661387" />
+    <state width="1886" height="158" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600447917103" />
+    <state width="1886" height="158" key="GridCell.Tab.0.left" timestamp="1600447917103">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="910" height="244" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600350504949" />
-    <state width="910" height="244" key="GridCell.Tab.0.right" timestamp="1600350504950">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1886" height="158" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600428661386" />
+    <state width="1886" height="158" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600447917103" />
+    <state width="1886" height="158" key="GridCell.Tab.0.right" timestamp="1600447917103">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="910" height="244" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600350504950" />
+    <state width="1886" height="158" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600428661387" />
+    <state width="1886" height="158" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600447917103" />
     <state width="1886" height="309" key="GridCell.Tab.1.bottom" timestamp="1600283309402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -743,11 +752,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592851077449" />
-    <state x="252" y="65" key="Vcs.Push.Dialog.v2" timestamp="1600345316837">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2172" y="68" key="Vcs.Push.Dialog.v2" timestamp="1600360032868">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="252" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600345316837" />
-    <state x="2172" y="68" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596024991276" />
+    <state x="2172" y="68" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600360032868" />
     <state x="100" y="100" width="1342" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593265888461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -756,17 +765,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="545" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1592822844586" />
-    <state x="544" y="114" width="832" height="812" key="find.popup" timestamp="1600342405171">
+    <state x="544" y="114" width="832" height="812" key="find.popup" timestamp="1600441758098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="544" y="114" width="832" height="812" key="find.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600342405171" />
+    <state x="544" y="114" width="832" height="812" key="find.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600441758098" />
     <state x="447" y="226" key="run.anything.popup" timestamp="1599559951711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="447" y="226" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599559951711" />
-    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1600269424387">
+    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1600438231488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600269424387" />
+    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600438231488" />
   </component>
 </project>
