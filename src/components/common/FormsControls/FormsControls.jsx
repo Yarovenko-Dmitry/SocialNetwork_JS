@@ -28,13 +28,13 @@ export const Input = (props) => {
   )
 }
 
-export const createFild = (placeholder, name, component, validate, props = {}, text = '') => {
+export const createField = (placeholder, name, validate, component, props = {}, text = '') => {
   return (
     <div>
       <Field placeholder={placeholder}
              name={name}
-             component={component}
              validate={validate}
+             component={component}
              {...props}
       /> {text}
     </div>
