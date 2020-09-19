@@ -22,7 +22,6 @@ export const ProfileInfo = ({isOwner, profile, status, updateStatus, savePhoto, 
   const onSubmit = (formData) => {
     saveProfile(formData).then(
       () => {
-        console.log(formData);
         setEditMode(false);
       })
   }
